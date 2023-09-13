@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:orientation="horizontal"
+    android:padding="1dp"
+    android:background="@drawable/app_image2">
+
+    <TextView
+        android:id="@+id/ChooseAMoodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choose_a_mood"
+        android:textColor="@color/pastel_brown"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/relaxButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/relax"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+
+    <ImageView
+        android:id="@+id/relaxImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/relax"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/relax"/>
+
+    <Button
+        android:id="@+id/focusButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/focus"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+
+    <ImageView
+        android:id="@+id/focusImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/focus"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/pastel_brown" />
+
+    <Button
+        android:id="@+id/anxietyButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/anxiety"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+
+    <ImageView
+        android:id="@+id/anxietyImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/anxiety"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/anxiety"/>
+    <Button
+        android:id="@+id/gratefulButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/grateful"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+    <ImageView
+        android:id="@+id/gratefulImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/grateful"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/manifest"/>
+    <Button
+        android:id="@+id/manifestButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/manifest"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+    <ImageView
+        android:id="@+id/manifestImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/manifest"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/manifest"/>
+    <Button
+        android:id="@+id/guidedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="@string/guided"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pastel_brown"/>
+    <ImageView
+        android:id="@+id/guidedImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/guided"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/guided"/>
+
+
+
+
+</GridLayout>
